@@ -22,3 +22,8 @@ products = [
 ] # based on data from Instacart: https://www.instacart.com/datasets/grocery-shopping-2017
 
 print(products)
+print(type(products)) #what type of data is the whole list comprised of
+print(type(products[0])) #what type of date is the product one with index 0 on the list
+print(len(products)) #how many products in list count
+print(products[0]) #print the first product
+print(products[0]["name"]) #print attribute name of first product
